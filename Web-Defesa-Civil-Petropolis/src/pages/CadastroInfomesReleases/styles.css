@@ -1,0 +1,102 @@
+#containerI {
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.cardCI {
+  margin-left: 42px;
+  width: 95vw;
+  height: auto;
+  max-height: 600px;
+  padding: 35px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px rgb(165, 165, 165);
+}
+
+#tituloI {
+  font-size: 1.9rem;
+  /* letter-spacing: 1px; */
+  padding-bottom: 0.5rem;
+}
+
+.formularioCI {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+
+#formularioTitulos {
+  font-size: 1.2rem;
+}
+
+.esquerda {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.direita {
+  width: 100%;
+  display: flex;
+  height: 170px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.botaoCI button {
+  width: 100%;
+  color: #ffff;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #ff6e29;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 7px rgb(92, 92, 92);
+  margin-top: 4vh;
+}
+.botaoCI button:disabled{
+  background-color: gray;
+}
+
+.botaoCI button:hover {
+  background-color: #ff5100;
+}
+
+.botaoCI button:disabled:hover {
+  background-color: gray;
+}
+.camposCI {
+  padding: 1%;
+  font-size: 20px;
+  width: 50%;
+  border: 1px solid #0a84ff;
+}
+
+.camposCI:focus {
+  outline: none;
+}
+
+.camposCID:focus {
+  outline: none;
+}
+
+.camposCID {
+  padding: 1%; 
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid #0a84ff;
+}
+
+.error-message {
+  color: rgb(240, 47, 47);
+}
+
+.containerInputI {
+  display: flex;
+  flex-direction: column;
+}

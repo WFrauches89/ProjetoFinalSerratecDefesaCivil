@@ -1,0 +1,43 @@
+#containerTamanhoFont {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  color: white;
+}
+
+#tamanhoFontBox {
+  display: flex;
+  align-items: center;
+  width: 106px;
+  /* margin-right: 3%; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.botao-diminuir,
+.botao-aumentar {
+  width: 30%;
+  font-size: 28px;
+  cursor: pointer;
+  background-color: #ff6e29;
+  border: none;
+  color: white;
+}
+
+.botao-diminuir {
+  border-radius: 4px 0 0 4px;
+}
+
+.botao-aumentar {
+  border-radius: 0 4px 4px 0;
+}
+
+.botao-diminuir:hover,
+.botao-aumentar:hover {
+  background-color: #ff5100;
+}
+
+#tamanho {
+  font-size: 24px;
+  margin: 0 10px;
+}

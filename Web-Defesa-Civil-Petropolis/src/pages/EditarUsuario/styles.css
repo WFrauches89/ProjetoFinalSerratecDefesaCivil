@@ -1,0 +1,80 @@
+
+#containerEditarUsuario {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerFormEditarUsuario {
+    width: 550px;
+    height: auto;
+    /* max-height: 500px; */
+    padding: 30px;
+    background-color: #f3f3f3; 
+    border-radius: 10px; 
+    box-shadow: 0px 3px 3px rgb(165, 165, 165);
+    display: flex;
+    
+}
+
+.titulosEditarUsuario{
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+    /* padding-bottom: 1%;  */
+} 
+
+#formularioEditarUsuario {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.textosEditarUsuario{
+    font-size: 1.2rem;
+    margin-top: 3px;
+    align-items: center;
+    position: relative;
+}
+
+.containerBoxEditarUsuario {
+}
+
+.containerInputEditarUsuario{
+}
+
+.inputEditarUsuario{
+    padding: 1%;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #0A84FF;
+}
+
+.inputEditarUsuario:read-only{
+    background-color: #616161;
+    color: white;
+}
+
+.inputEditarUsuario{
+    outline: none;
+}
+
+.botaoEditarUsuario {
+    width: 100%;
+    color: #ffff;
+    font-size: 1rem;
+    padding: 2px;
+    background-color: #FF6E29;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px rgb(92, 92, 92);
+    margin-top: 10px;
+}
+
+.botaoEditarUsuario:hover {
+    background-color: #ff5100;
+} 

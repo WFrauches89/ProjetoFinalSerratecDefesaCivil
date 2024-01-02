@@ -1,0 +1,65 @@
+
+#containerUsuarioInfo {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerFormUsuarioInfo {
+    width: 570px;
+    height: auto;
+    padding: 35px;
+    background-color: #f3f3f3; 
+    border-radius: 10px; 
+    box-shadow: 0px 3px 3px rgb(165, 165, 165);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulosUsuarioInfo{
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+    padding-bottom: 0.5rem;  
+} 
+
+#formularioUsuarioInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.textosInfosUsuarios{
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.containerBoxUsuarioInfo {
+    display: grid;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botaoInfoUsuarios {
+    width: 100%;
+    color: #ffff;
+    font-size: 1.1rem;
+    padding: 0.1rem;
+    background-color: #FF6E29;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px rgb(92, 92, 92);
+    margin-top: 10px;
+}
+
+.botaoInfoUsuarios:hover {
+    background-color: #ff5100;
+} 

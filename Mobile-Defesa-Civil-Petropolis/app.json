@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "defesa-civil",
+    "slug": "defesa-civil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/defesaCivilElipse.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/defesaCivilElipse.png",
+        "backgroundColor": "#ffffff"
+      },
+      "userInterfaceStyle": "automatic",
+      "package": "com.defesaCivil",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+
+    }
+  }
+}

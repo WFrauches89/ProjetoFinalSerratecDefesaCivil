@@ -1,0 +1,91 @@
+#containerCCadastro {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.corpoCU {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#containerCadastro {
+  width: 50%;
+  max-width: 350px;
+  height: auto;
+  padding-top: 1rem;
+  background-color: #f3f3f3;
+  border-radius: 10px; 
+  box-shadow: 0px 3px 3px rgb(165, 165, 165);
+  min-width: 300px;
+}
+
+#containerTituloC {
+  display: flex;
+  justify-content: center;
+}
+
+.labelsC{
+  font-size: 1.2rem;
+}
+
+.tituloBoxC {
+  font-size: 1.9rem;
+  margin-bottom: 0.9rem;
+}
+
+.areaInputsC {
+  /* padding-left: 8%; */
+  /* padding-top: 2%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.cadastrarC{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.inputsC {
+  width: 80%;
+  padding: 1%;
+  font-size: 1rem;
+  border: 1px solid #0a84ff;
+}
+
+.inputC:focus {
+  outline: none;
+}
+
+.buttonC {
+  width: 80%;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  padding: 0.2rem;
+  color: #ffff;
+  background-color: #ff6e29;
+  cursor: pointer;
+  box-shadow: 0px 2px 7px rgb(92, 92, 92);
+  border: 0;
+}
+
+.buttonC:hover {
+  background-color: #ff5100;
+}
+.buttonC:disabled {
+  background-color: gray;
+}
+.buttonC:disabled:hover{
+  background-color: gray;
+
+}
